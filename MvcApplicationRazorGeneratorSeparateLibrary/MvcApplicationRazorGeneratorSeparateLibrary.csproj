@@ -135,9 +135,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibraryProject\LibraryProject.csproj">
-      <Project>{9B7224F0-774A-443A-82A9-B9F1433AF637}</Project>
-      <Name>LibraryProject</Name>
+    <ProjectReference Include="..\LibraryViewProject\LibraryViewProject.csproj">
+      <Project>{FC8D7B0B-DFE1-446E-BB36-2E86CA64E6DB}</Project>
+      <Name>LibraryViewProject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
