@@ -19,5 +19,10 @@ namespace MvcApplicationRazorGeneratorSeparateLibrary.Controllers
         {
             return View();
         }
+
+        public ActionResult ViewInMainProject()
+        {
+            return View();
+        }
     }
 }
