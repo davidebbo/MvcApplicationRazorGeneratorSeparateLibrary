@@ -1,0 +1,11 @@
+﻿@model MvcApplicationRazorGeneratorSeparateLibrary.Models.RegisterModel
+           
+@{
+    ViewBag.Title = "JsonReference";
+}
+
+<h2>JsonReference</h2>
+
+<script type="text/javascript">
+        jQuery['table01GridData'] = @(new HtmlString(Json.Encode(Model)));
+</script>

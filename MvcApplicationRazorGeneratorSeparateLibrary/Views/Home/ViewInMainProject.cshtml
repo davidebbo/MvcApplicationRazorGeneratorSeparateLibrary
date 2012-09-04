@@ -1,1 +1,6 @@
-﻿<h2>This view comes from the main project</h2>
+﻿@model MvcApplicationRazorGeneratorSeparateLibrary.Models.RegisterModel
+<h2>This view comes from the main project</h2>
+
+<script type="text/javascript">
+        jQuery['table01GridData'] = @(new HtmlString(Json.Encode(Model)));
+</script>

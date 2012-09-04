@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MvcApplicationRazorGeneratorSeparateLibrary.Views.Home
+namespace MvcApplicationRazorGeneratorSeparateLibrary.Areas.Demo.Views.Demo
 {
     using System;
     using System.Collections.Generic;
@@ -28,21 +28,33 @@ namespace MvcApplicationRazorGeneratorSeparateLibrary.Views.Home
     using System.Web.WebPages;
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.4.1.0")]
-    [System.Web.WebPages.PageVirtualPathAttribute("~/Views/Home/ViewInMainProject.cshtml")]
-    public class ViewInMainProject : System.Web.Mvc.WebViewPage<MvcApplicationRazorGeneratorSeparateLibrary.Models.RegisterModel>
+    [System.Web.WebPages.PageVirtualPathAttribute("~/Areas/Demo/Views/Demo/JsonReference.cshtml")]
+    public class JsonReference : System.Web.Mvc.WebViewPage<MvcApplicationRazorGeneratorSeparateLibrary.Models.RegisterModel>
     {
-        public ViewInMainProject()
+        public JsonReference()
         {
         }
         public override void Execute()
         {
 
-WriteLiteral("<h2>This view comes from the main project</h2>\n\n<script type=\"text/javascript\">\r\n" +
-"        jQuery[\'table01GridData\'] = ");
+WriteLiteral("           \r\n");
 
 
             
-            #line 5 "..\..\Views\Home\ViewInMainProject.cshtml"
+            #line 3 "..\..\Areas\Demo\Views\Demo\JsonReference.cshtml"
+  
+    ViewBag.Title = "JsonReference";
+
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n<h2>JsonReference</h2>\r\n\r\n<script type=\"text/javascript\">\r\n        jQuery[\'tabl" +
+"e01GridData\'] = ");
+
+
+            
+            #line 10 "..\..\Areas\Demo\Views\Demo\JsonReference.cshtml"
                                 Write(new HtmlString(Json.Encode(Model)));
 
             
