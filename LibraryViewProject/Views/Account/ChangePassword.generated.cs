@@ -27,9 +27,9 @@ namespace LibraryViewProject.Views.Account
     using System.Web.UI;
     using System.Web.WebPages;
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.4.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/Account/ChangePassword.cshtml")]
-    public class ChangePassword : System.Web.Mvc.WebViewPage<LibraryViewProject.Models.ChangePasswordModel>
+    public partial class ChangePassword : System.Web.Mvc.WebViewPage<LibraryViewProject.Models.ChangePasswordModel>
     {
         public ChangePassword()
         {

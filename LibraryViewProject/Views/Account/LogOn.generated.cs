@@ -27,9 +27,9 @@ namespace LibraryViewProject.Views.Account
     using System.Web.UI;
     using System.Web.WebPages;
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.4.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/Account/LogOn.cshtml")]
-    public class LogOn : System.Web.Mvc.WebViewPage<LibraryViewProject.Models.LogOnModel>
+    public partial class LogOn : System.Web.Mvc.WebViewPage<LibraryViewProject.Models.LogOnModel>
     {
         public LogOn()
         {

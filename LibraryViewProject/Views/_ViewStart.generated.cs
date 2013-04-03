@@ -27,9 +27,9 @@ namespace LibraryViewProject.Views
     using System.Web.UI;
     using System.Web.WebPages;
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.4.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/_ViewStart.cshtml")]
-    public class ViewStart : System.Web.Mvc.ViewStartPage
+    public partial class ViewStart : System.Web.Mvc.ViewStartPage
     {
         public ViewStart()
         {

@@ -27,9 +27,9 @@ namespace LibraryViewProject.Views.Shared
     using System.Web.UI;
     using System.Web.WebPages;
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.4.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/Shared/Error.cshtml")]
-    public class Error : System.Web.Mvc.WebViewPage<System.Web.Mvc.HandleErrorInfo>
+    public partial class Error : System.Web.Mvc.WebViewPage<System.Web.Mvc.HandleErrorInfo>
     {
         public Error()
         {

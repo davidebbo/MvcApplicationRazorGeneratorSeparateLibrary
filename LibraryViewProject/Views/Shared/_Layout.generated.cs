@@ -27,9 +27,9 @@ namespace LibraryViewProject.Views.Shared
     using System.Web.UI;
     using System.Web.WebPages;
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "1.5.4.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/Shared/_Layout.cshtml")]
-    public class Layout : System.Web.Mvc.WebViewPage<dynamic>
+    public partial class Layout : System.Web.Mvc.WebViewPage<dynamic>
     {
         public Layout()
         {
