@@ -44,11 +44,13 @@
     <Reference Include="Moq">
       <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
     </Reference>
-    <Reference Include="RazorGenerator.Testing">
-      <HintPath>..\packages\RazorGenerator.Testing.1.5.0.0\lib\net40\RazorGenerator.Testing.dll</HintPath>
+    <Reference Include="RazorGenerator.Testing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\RazorGenerator.Testing.2.1.1\lib\net40\RazorGenerator.Testing.dll</HintPath>
     </Reference>
-    <Reference Include="ReflectionMagic">
-      <HintPath>..\packages\ReflectionMagic.1.0.1\lib\net40\ReflectionMagic.dll</HintPath>
+    <Reference Include="ReflectionMagic, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ReflectionMagic.2.0.0\lib\net40\ReflectionMagic.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
